@@ -1,0 +1,48 @@
+
+#inputField {
+    width: 900px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: solid;
+    margin-left: 300px;
+    margin-right: 100px;
+  }
+
+  
+
+  .bubble-container {
+    padding: 10px;
+    height: 300px;
+    overflow:hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+
+  .bubble {
+    position: relative;
+    display: inline-block;
+    background-color: #EEEEEE;
+    color: #111827;
+    padding: 10px 40px 10px 15px; 
+    border-radius: 15px;
+    margin: 5px 5px;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  
+
+  .bubble .close-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+ 
+    background: none;
+    border: none;
+    font-size: 20px;
+
+  }
+  
